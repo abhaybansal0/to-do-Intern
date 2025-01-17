@@ -57,6 +57,12 @@ function App() {
     }
   }
 
+  // const CtrlUndo = (e) => {
+  //   e.preventDefault();
+  //   if(e.key === "z" && e.ctrlKey )  Undo();
+  //   else return
+  // }
+
 
   const updateHistory = (currState) => {
     // if(currState.length === 0){
@@ -88,7 +94,8 @@ function App() {
     loadTasks();
 
 
-    // window.addEventListener('keydown', Undo);
+    // window.addEventListener('keydown', CtrlUndo);
+
 
   }, [])
 
